@@ -23,3 +23,18 @@ Se utilizo la interfaz Git Bash para poder crear desde un repositorio local las 
 - git push: para crear un pull request que meta los cambios realizados desde el repositorio local al repositorio remoto, se hace para cada una de las ramas
 
 A partir de aqui se modificaron los archivos y se les definio su correspondiente codigo desde el repositorio remoto GitHub
+
+### Opciones de menu en el proyecto:
+El archivo principal que es el que se encuentra en la rama 'main' es el que contiene en forma de codigo todo el menu.
+1.Se muestra en pantalla las opciones que posee el menu y que el usuario puede escoger:
+  - (1) Representacion caracter individual
+  - (2) Representacion palabra de caracteres
+  - (3) Representacion ASCII de bytes
+2.A continuacion se pregunta al usuario para que digite uno de los numeros que corresponde. SI dicho numero no corresponde, simplemente se imprimira en pantalla 'opcion incorrecta'
+3. Dependiendo de la opcion valida ingresada, se ejecutara las siguientes opciones
+  - Si la opcion es 1, entonces se pregunta al usuario que digite un caracter individual a convertir, luego se muestra en pantalla su representacion en bits
+  - Si la opcion es 2, entonces se pregunta al usuario que digite una palanra, luego se muestra en pantalla la representacion en bytes
+  - Si la opcion es 3, entonces se pregunta al usuario que digite un byte, luego se muestra en pantalla la representacion ASCII
+
+### Informacion del integrante de grupo
+Este trabajo fue hecho en solitario por el estudiante Santiago Restrepo Aguilar con usuario SantiaRA en github
